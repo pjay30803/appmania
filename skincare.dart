@@ -1,8 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_rating_bar/flutter_rating_bar.dart';
 
-// import 'Cart_Screen.dart';
-
 void main() {
   runApp(const MyApp());
 }
