@@ -75,7 +75,6 @@ class _SmartPhoneScreenState extends State<SmartPhonescreen> {
           IconButton(
             icon: const Icon(Icons.shopping_cart, color: Colors.black),
             onPressed: () {
-              // Navigator.push(context, MaterialPageRoute(builder: (context) => const cartpage()));
             },
           ),
         ],
@@ -114,14 +113,14 @@ class _SmartPhoneScreenState extends State<SmartPhonescreen> {
               ),
               Positioned(
                 bottom: 45,
-                left: 5, // Adjusted to position on the left side
-                right: 5, // Adjusted to align with the width of the container
+                left: 5, 
+                right: 5, 
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
                     Text(
                       '${product.name}\n${product.price}',
-                      textAlign: TextAlign.left, // Align text to the left
+                      textAlign: TextAlign.left, 
                       style: const TextStyle(color: Colors.black, fontSize: 20, fontWeight: FontWeight.bold),
                     ),
                     SizedBox(height: 5),
@@ -130,7 +129,7 @@ class _SmartPhoneScreenState extends State<SmartPhonescreen> {
                       maxLines: 5,
                       overflow: TextOverflow.fade,
                       style: const TextStyle(color: Colors.black, fontSize: 16),
-                      textAlign: TextAlign.left, // Align text to the left
+                      textAlign: TextAlign.left, 
                     ),
                   ],
                 ),
